@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "WebServiceTestSuite">
+<listeners>
+<listener class-name="listeners.TestListener"></listener>
+</listeners>
+<test name = "RESTAPITest">
+<classes>
+<class name = "tests.TestGETRequest" />
+<class name = "tests.TestPOSTRequest" />
+<class name = "tests.TestPUTRequest" />
+<class name = "tests.TestDELETERequest" />
+</classes>
+</test>
+</suite>
